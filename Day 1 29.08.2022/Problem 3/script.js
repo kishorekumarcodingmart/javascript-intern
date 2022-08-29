@@ -12,3 +12,4 @@ function getNextChristmas(){
 
     document.getElementById("result").innerHTML = leftdays
 }
+// Calculate days left until next Christmas.
