@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+textarea {
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+p {
+    font-weight: bolder;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+/* Capitalize the first letter of each word of a given string. */
