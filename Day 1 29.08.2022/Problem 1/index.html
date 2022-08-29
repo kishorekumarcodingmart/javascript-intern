@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day and Time</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <form>
+        <label for="dateAndTime">Display Time</label>
+
+        <select name="dateAndTime" id="dateAndTime" onchange="getTime()">
+            <option value="12" class="space">12</option>
+            <option value="24" class="space">24</option>
+        </select>
+        <p id="result"></p>
+    </form>
+</body>
+
+</html>
+
+<!-- Display the current day and time (output should support both 12hr and 24 hr time
+     based on input parameters) in the following 
+    format current day | current time => Tuesday | 10 PM : 30 : 38 -->

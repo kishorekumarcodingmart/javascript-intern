@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4rem;
+}
+
+label {
+    margin: 2rem;
+}
+
+.space {
+    width: fit-content;
+    padding: 3rem;
+}
+
+#result {
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Display the current day and time (output should support both 12hr and 24 hr time 
+    based on input parameters) in the following 
+format current day | current time => Tuesday | 10 PM : 30 : 38 */
