@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Calculate multiplication and division of two numbers (by getting input from user by using a form) */
+
+input{
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.7rem;
+}
