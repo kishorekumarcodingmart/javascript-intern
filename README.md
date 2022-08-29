@@ -1,1 +1,1 @@
-# javascript-intern
+# Javascript Intern
